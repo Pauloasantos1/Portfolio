@@ -10,12 +10,12 @@ export const navLinks = [
     title: "Hero",
   },
   {
-    id: "portfolio",
-    title: "Portfolio",
-  },
-  {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -25,9 +25,9 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "Software Engineer",
+    company_name: "AT&T",
+    date: " January 2023 - Present",
     details: [
       "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
       "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
@@ -35,9 +35,9 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Software Engineer",
+    company_name: "NCR Corporation",
+    date: "2022",
     details: [
       "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
       "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
@@ -45,27 +45,43 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Server / Server Manager",
+    company_name: "South Kitchen + Bar",
+    date: "2019 - 2022",
     details: [
       "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
       "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
       "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
     ],
   },
-  {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
-    details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
-    ],
-  },
 ];
-
+const educations = [{
+  degree: 'Masters of Science Computer Science',
+  school: "Georgia Institute of Technology",
+  time: "2024 - 2026 (Anticipated)",
+  details: []
+}, 
+{
+  degree: "Bachelor of Science Computer Science",
+  school: "University of Georgia",
+  time: "2018- 2022"
+},
+{
+  degree: "Bachelor of Arts Spanish ",
+  school: "University of Georgia",
+  time: "2018-2022"
+},
+{
+  degree: "Certification in Project Management",
+  school: "Cornell University",
+  time: "2024"
+},
+{
+  degree: "Certified Agilist in Product Owner / Product Mananger",
+  school: "SAFe 6.0",
+  time: "2023"
+}
+]
 const portfolio = [
   {
     name: "Open Source Computer Science Repo",
@@ -87,5 +103,5 @@ const portfolio = [
   },
 ];
 
-export { experiences, portfolio };
+export { experiences, portfolio, educations };
 

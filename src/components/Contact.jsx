@@ -47,8 +47,7 @@ const Contact = () => {
         <h3 className={styles.sectionText}>Contact</h3>
 
         <form
-          action="https://getform.io/f/8b086558-47d4-49d0-852d-ec8c22da40f7"
-          method="POST"
+          action="https://getform.io/f/pboxxmda" method="POST"
           className="mt-12 gap-4 flex flex-col"
         >
           <span className='text-white font-medium mt-3'>Full Name</span>
