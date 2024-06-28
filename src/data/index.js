@@ -29,9 +29,9 @@ const experiences = [
     company_name: "AT&T",
     date: " January 2023 - Present",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "As a Software Engineer in the Chief Security Office, I have spearheaded the development of a web tool utilizing <span style='color: white;'>Python (Django)</span> and <span style='color: white;'>Javascript (Angular)</span>",
+      "My proactive approach to <span style='color: white;'>documentation</span> has ensured comprehensive clarity and coherence, facilitating seamless <span style='color: white;'>future collaboration</span> .",
+      "Mentored <span style='color: white;'>interns</span> and provided<span style='color: white;'> guidance</span> throughout their software engineering journeys, fostering their professional growth and development..",
     ],
   },
   {
@@ -39,9 +39,8 @@ const experiences = [
     company_name: "NCR Corporation",
     date: "2022",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "Mentored and guided two interns in the successful migration of their<span style='color: white;'> Java Spring</span> BFF (Backend for Frontend) to <span style='color: white;'>NestJS</span>, showcasing my ability to manage intricate <span style='color: white;'>API calls</span> and aggregate crucial account and transaction data from multiple sources.",
+      "<span style='color: white;'>Consolidated numerous API calls</span> for transactional data across hundreds of regional and national banks",
     ],
   },
   {
@@ -49,9 +48,9 @@ const experiences = [
     company_name: "South Kitchen + Bar",
     date: "2019 - 2022",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
+      "Skillfully managed high-volume customer traffic, serving an average of 20-25 people at a time, and contributing to the restaurant's success by helping to achieve average weekend sales of <span style='color: white;'>$15,000 to $18,000 </span>.",
+      "Facilitated the onboarding of <span style='color: white;'>15+ new employees</span> and contributed to the development of a streamlined and repeatable training process.",
+      "",
     ],
   },
 ];
