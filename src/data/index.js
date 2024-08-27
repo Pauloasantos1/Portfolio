@@ -101,6 +101,10 @@ const portfolio = [
     image: algorithms,
   },
 ];
+const about = 
+  {
+  info: "I currently work as a Full-Stack software engineer at AT&T. I am also a graduate student at the Georgia institute of technology."
+};
 
-export { experiences, portfolio, educations };
+export { experiences, portfolio, educations, about };
 
