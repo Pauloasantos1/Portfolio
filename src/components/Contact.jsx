@@ -71,6 +71,15 @@ const Contact = () => {
             rows="10"
             className="bg-tertiary p-4 text-white border font-medium"
           />
+           <label className="flex items-center mt-4">
+          <input
+            type="checkbox"
+            className="form-checkbox bg-tertiary text-white border-white h-5 w-5 rounded focus:ring-0"
+          />
+          <span className="ml-2 text-white font-medium">
+            I would like a copy of your resume!
+          </span>
+        </label>
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 w-fit text-white font-bold shadow-md shadow-primary '
