@@ -4,6 +4,7 @@ import { about } from "../data";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
+import pro from "../assets/pro.jpeg";
 
 const About = () => {
     return (
@@ -12,7 +13,14 @@ const About = () => {
           <h2 className={`${styles.sectionText} text-center`}>About Me</h2>
         </motion.div>
   
-        <div className="relative mt-10 md:mt-20 md:p-20 flex justify-center">
+        <div className="flex flex-col items-center justify-center mt-5 md:mt-5 md:p-1">
+        <img
+          src={pro}
+          alt="Professional Picture"
+          className="w-60 h-auto rounded-full shadow-md mb-1"
+        />
+        </div>
+        <div className="relative mt-5 md:mt-1 md:p-10 flex justify-center">
           <div className="max-w-4xl w-full border-4 lg:border-8 rounded-xl lg:rounded-3xl p-6 bg-transparent shadow-lg">
             <p className="text-slate-300 font-semibold text-[16px] xs:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-relaxed">
               {about.info}
