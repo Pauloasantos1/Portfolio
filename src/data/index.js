@@ -108,11 +108,9 @@ const portfolio = [
 const about = 
   {
   info: [
-  "I’m Paulo Santos, a passionate <span style='color: white;'> Full-Stack Software </span> Engineer currently working at AT&T. With expertise in",
-  " technologies like Python (Django) and JavaScript (Angular, React), I have a strong foundation in building",
-  " scalable web applications. I’m also pursuing a Master’s degree in Computer Science at Georgia Tech to deepen",
-  " my understanding of advanced computing concepts. Outside of work, I enjoy hiking with my dogs, drinkings lots of coffee, ",
-  "and exploring new developments in the technology world. My goal is to continue innovating and building impactful solutions that make a difference.",
+  "Hello! I’m <span style='color: white;'>Paulo Santos</span>, a passionate <span style='color: white;'> Full-Stack Software </span> Engineer currently working at AT&T. With expertise in technologies ",
+  "like <span style='color: white;'>Python (Django)</span> and <span style='color: white;'>JavaScript (Angular, React)</span>, I have a strong foundation in building scalable web applications. I’m also pursuing a <span style='color: white;'>Master’s degree in Computer Science at Georgia Tech </span> to deepen",
+  "my understanding of advanced computing concepts. Outside of work, I enjoy hiking with my dogs, drinkings lots of coffee, and exploring new developments in the technology world. My goal is to <span style='color: white;'>continue innovating and building impactful solutions </span> that make a difference.",
   ]
 };
 

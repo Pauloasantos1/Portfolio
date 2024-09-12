@@ -25,7 +25,7 @@ const About = () => {
                 {about.info.map((paragraph, index) => (
                     <p
                         key={index}
-                        className="text-slate-300 font-semibold text-[16px] xs:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-relaxed"
+                        className="text-slate-500 font-semibold text-[16px] xs:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-relaxed"
                         dangerouslySetInnerHTML={{ __html: paragraph }} // Use dangerouslySetInnerHTML here
                     />
                 ))}
