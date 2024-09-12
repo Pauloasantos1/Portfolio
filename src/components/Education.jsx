@@ -35,22 +35,6 @@ const EducationCard = ({ education, onClick, isActive, isMobile }) => {
   );
 };
 
-// const EducationDetails = ({ education }) => {
-//   return (
-//     <div className="mt-5">
-//       <ul className="max-w-7xl list-none space-y-8 border-4 lg:border-8 rounded-xl lg:rounded-3xl p-6">
-//         {education.details.map((detail, index) => (
-//           <li
-//             key={`education-detail-${index}`}
-//             className="text-slate-500 font-semibold text-[10px] xs:text-[14px] md:text-[18px] lg:text-[22px] xl:text-[28px] lg:leading-[30px]"
-//             dangerouslySetInnerHTML={{ __html: detail }}
-//           />
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
 const Education = () => {
   const [selectedEd, setSelectedEd] = useState(educations[0]);
   const [isMobile, setIsMobile] = useState(false);
@@ -76,8 +60,8 @@ const Education = () => {
         </h2>
       </motion.div>
 
-      <div className="relative mt-10 md:mt-20 md:p-20 flex flex-col items-center sm:flex-row sm:items-start">
-        <div className="flex flex-col z-10 sm:w-auto sm:w-full">
+      <div className="relative mt-10 md:mt-20 md:p-20 flex flex-col items-center sm:flex-row sm:items-start sm:justify-center">
+        <div className="flex flex-col z-10 sm:w-auto w-full sm:text-left text-center">
           {educations.map((education, index) => (
             <EducationCard
               key={`education-${index}`}
@@ -88,10 +72,6 @@ const Education = () => {
             />
           ))}
         </div>
-
-        {/* <div className="flex justify-end z-10 sm:block hidden">
-          <EducationDetails education={selectedEd} />
-        </div> */}
       </div>
     </div>
   );

@@ -21,11 +21,15 @@ const About = () => {
         />
         </div>
         <div className="relative mt-5 md:mt-1 md:p-10 flex justify-center">
-          <div className="max-w-4xl w-full border-4 lg:border-8 rounded-xl lg:rounded-3xl p-6 bg-transparent shadow-lg">
-            <p className="text-slate-300 font-semibold text-[16px] xs:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-relaxed">
-              {about.info}
-            </p>
-          </div>
+            <div className="max-w-4xl w-full border-4 lg:border-8 rounded-xl lg:rounded-3xl p-6 bg-transparent shadow-lg">
+                {about.info.map((paragraph, index) => (
+                    <p
+                        key={index}
+                        className="text-slate-300 font-semibold text-[16px] xs:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-relaxed"
+                        dangerouslySetInnerHTML={{ __html: paragraph }} // Use dangerouslySetInnerHTML here
+                    />
+                ))}
+            </div>
         </div>
       </div>
     );

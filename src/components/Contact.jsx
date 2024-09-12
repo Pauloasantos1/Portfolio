@@ -44,7 +44,9 @@ const Contact = () => {
         }}
         className='flex-[0.8] md:pb-40 mx-4 sm:mx-auto'
       >
+      <div className="w-full flex justify-center">
         <h3 className={styles.sectionText}>Contact</h3>
+      </div>
 
         <form
           action="https://getform.io/f/pboxxmda" method="POST"
