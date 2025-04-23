@@ -11,15 +11,15 @@ const EducationCard = ({ education, onClick, isActive, isMobile }) => {
     <div
       onClick={onClick}
       className={`cursor-pointer sm:mb-5 p-5 max-w-xl relative sm:text-left text-center ${
-        isMobile ? "text-quaternary" : ""
+        isMobile ? "text-green-600" : ""
       }`}
     >
       {(isActive || isMobile) && (
-        <div className="absolute left-0 top-0 bottom-0 w-3 md:w-5 bg-tertiary my-6 sm:block hidden"></div>
+        <div className="absolute left-0 top-0 bottom-0 w-3 md:w-5 bg-green-600 my-6 sm:block hidden"></div>
       )}
       <h3
         className={`text-xl lg:text-2xl xl:text-3xl font-bold sm:pl-8 ${
-          isActive || isMobile ? "text-quaternary" : "text-slate-600"
+          isActive || isMobile ? "text-green-600" : "text-slate-600"
         }`}
       >
         {education.degree}

@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
+@layer base {
+  html, body {
+    @apply bg-gradient-to-b from-black via-gray-900 to-black bg-no-repeat;
+    background-size: 100% 200%;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
@@ -39,6 +45,7 @@
 
 .parallax {
   position: relative;
+  z-index: 1;
   min-height: 75vh;
   min-width: 2000px;
   width: 100%;
@@ -134,6 +141,24 @@
   -webkit-background-clip: text;
   background-clip: text;
   animation: glow 4s infinite alternate, streaky-move 4s linear infinite;
+}
+
+.scroll-container {
+  z-index: 10; /* Higher than parallax__crater */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+
+/* a utility class you can drop straight on your ring */
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
 }
 
 @keyframes glow {
@@ -242,4 +267,6 @@
                 -2.6em 0em 0 0em rgba(255, 255, 255, 0.7),
                 -1.8em -1.8em 0 0em #ffffff;
   }
+
+  
 }

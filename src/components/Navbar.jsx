@@ -67,7 +67,7 @@ const Navbar = () => {
               onClick={() => setActive(nav.id)}
             >
               {active === nav.id && (
-                <div className="fixed right-10 w-2 h-6 lg:h-8 bg-quaternary"></div>
+                <div className="fixed right-10 w-2 h-6 lg:h-8 bg-green-600"></div>
               )}
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.id ? "text-quaternary" : "text-secondary"
+                    active === nav.id ? "text-green-600" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

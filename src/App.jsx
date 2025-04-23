@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className='relative z-0'>
         <Navbar />
         <div className='wrapper' ref={wrapperRef}>
           <div id="hero" className='z-10'>
@@ -16,13 +16,13 @@ const App = () => {
           {/* <div id="portfolio" className='relative z-30 bg-primary mt-[-2px]'>
             <Portfolio />
           </div> */}
-          <div id="experience" className='relative z-30 bg-primary'>
+          <div id="experience" className='relative z-30'>
             <Experience />
           </div>
-          <div id="education" className='relative z-30 bg-primary'>
+          <div id="education" className='relative z-30'>
             <Education />
           </div>
-          <div id="contact" className='relative z-30 bg-primary'>
+          <div id="contact" className='relative z-30' >
             <Contact />
           </div>
         </div>
