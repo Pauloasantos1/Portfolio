@@ -25,22 +25,46 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer, Automation Platforms",
     company_name: "AT&T",
-    date: " January 2023 - Present",
+    date: "November 2024 - Present",
     details: [
-      "As a Software Engineer in the Chief Security Office, I have spearheaded the development of a web tool utilizing <span style='color: white;'>Python (Django)</span> and <span style='color: white;'>Javascript (Angular)</span>",
-      "My proactive approach to <span style='color: white;'>documentation</span> has ensured comprehensive clarity and coherence, facilitating seamless <span style='color: white;'>future collaboration</span> .",
-      "Mentored <span style='color: white;'>interns</span> and provided<span style='color: white;'> guidance</span> throughout their software engineering journeys, fostering their professional growth and development..",
+      "Architecting and enhancing <span style='color: white;'>ServiceNow</span> to govern over <span style='color: white;'>17,000+ software and hardware assets</span> under the Technology Strategies & Standards group.",
+      "Building and optimizing <span style='color: white;'>flows</span>, <span style='color: white;'>business rules</span>, and <span style='color: white;'>scripts</span> to implement security controls and validate compliance against frameworks like <span style='color: white;'>NIST 800-53</span> and <span style='color: white;'>ISO 27001</span>.",
+      "Partnering with risk, security, and architecture teams to identify automation opportunities and deploy enhancements that <span style='color: white;'>improve resiliency</span> and reduce risk."
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "NCR Corporation",
-    date: "2022",
+    title: "Sr. Specialist Software Engineer, Chief Security Office",
+    company_name: "AT&T",
+    date: "November 2023 - November 2024",
     details: [
-      "Mentored and guided two interns in the successful migration of their<span style='color: white;'> Java Spring</span> BFF (Backend for Frontend) to <span style='color: white;'>NestJS</span>, showcasing my ability to manage intricate <span style='color: white;'>API calls</span> and aggregate crucial account and transaction data from multiple sources.",
-      "<span style='color: white;'>Consolidated numerous API calls</span> for transactional data across hundreds of regional and national banks",
+      "Built a full-stack <span style='color: white;'>Django/Angular</span> tool for tracking and managing user stories securely across teams.",
+      "Reduced new developer onboarding time by <span style='color: white;'>40%</span> via improved documentation and refined system architecture.",
+      "Implemented <span style='color: white;'>OAuth2 authentication</span>, SSO integration, and <span style='color: white;'>Azure Monitor</span> logging achieving 99.9% trace coverage with no critical penetration test findings.",
+      "Automated <span style='color: white;'>golden image deployments</span> using Azure DevOps, reducing manual update cycles by 50%.",
+      "Mentored junior engineers and instituted <span style='color: white;'>peer-review practices</span>, reducing post-deployment defects by 25% in 3 months."
+    ],
+  },
+  {
+    title: "Specialist Technical Business Manager, Chief Security Office",
+    company_name: "AT&T",
+    date: "January 2023 - November 2023",
+    details: [
+      "Supported the development of <a href='https://www.business.att.com/products/att-dynamic-defense.html' target='_blank' style='color: white; text-decoration: underline;'>AT&T Dynamic Defense</a>, a proactive threat detection platform that enhances enterprise security posture.",
+      "Managed backlog alignment with security milestones and coordinated sprint execution with engineers and compliance leads.",
+      "Improved resolution timelines by integrating <span style='color: white;'>Jira</span> + <span style='color: white;'>Confluence</span> for streamlined issue tracking.",
+      "Led the implementation of user-driven <span style='color: white;'>UI/UX enhancements</span> to boost usability across internal stakeholders."
+    ],
+  },
+  {
+    title: "Software Engineer I",
+    company_name: "NCR Corporation",
+    date: "July 2022 - January 2023",
+    details: [
+      "Refactored legacy <span style='color: white;'>Spring BFF APIs</span> into <span style='color: white;'>NestJS microservices</span>, reducing deployment errors by 30% and shrinking CVE remediation windows from 14 to 3 days.",
+      "Developed a secure banking widget using <span style='color: white;'>ReactJS (MUI)</span> to display real-time transactions, ensuring customer-facing <span style='color: white;'>cybersecurity compliance</span>.",
+      "Collaborated with platform security teams to implement <span style='color: white;'>CI/CD pipelines</span> and maintain secure code practices across the SDLC."
     ],
   },
   {
@@ -55,30 +79,74 @@ const experiences = [
   },
 ];
 const educations = [{
-  degree: 'Masters of Science Computer Science',
+  degree: "Masters of Science Computer Science",
   school: "Georgia Institute of Technology",
   time: "2024 - 2026 (Anticipated)",
-  details: []
-}, 
+  details: [
+    "<span class='text-gray-300'>Focus on cybersecurity, automation, and software architecture across cloud-native environments.</span>",
+    "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
+    "<ul class='list-disc ml-6 space-y-1'>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6035-introduction-information-security' target='_blank' class='text-blue-400 hover:underline'>🔐 Intro to Information Security</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6260-applied-cryptography' target='_blank' class='text-blue-400 hover:underline'>🔏 Data Security & Privacy Policies</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6750-human-computer-interaction' target='_blank' class='text-blue-400 hover:underline'>🧠 Human-Computer Interaction</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6440-intro-health-informatics' target='_blank' class='text-blue-400 hover:underline'>🏥 Intro to Health Informatics</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-8803-mobile-ubiquitous-computing' target='_blank' class='text-blue-400 hover:underline'>📱 Mobile & Ubiquitous Computing</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6460-educational-technology' target='_blank' class='text-blue-400 hover:underline'>🎓 Educational Technology</a></li>" +
+    "</ul>"
+  ],
+},
 {
   degree: "Bachelor of Science Computer Science",
   school: "University of Georgia",
-  time: "2018- 2022"
+  time: "2018 - 2022",
+  details: [
+    "<span class='text-gray-300'>Emphasis on systems-level programming, security fundamentals, and software development best practices.</span>",
+    "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
+    "<ul class='list-disc ml-6 space-y-1'>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8369' target='_blank' class='text-blue-400 hover:underline'>🧪 Software Engineering</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8371' target='_blank' class='text-blue-400 hover:underline'>🏛️ Computer Systems Architecture</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8367' target='_blank' class='text-blue-400 hover:underline'>💻 Operating Systems</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8372' target='_blank' class='text-blue-400 hover:underline'>🧩 Algorithms</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8365' target='_blank' class='text-blue-400 hover:underline'>📊 Data Structures</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8368' target='_blank' class='text-blue-400 hover:underline'>🔐 Computer Security</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8366' target='_blank' class='text-blue-400 hover:underline'>🗃️ Database Management</a></li>" +
+    "</ul>"
+  ],
 },
 {
-  degree: "Bachelor of Arts Spanish ",
+  degree: "Bachelor of Arts Spanish",
   school: "University of Georgia",
-  time: "2018-2022"
+  time: "2018 - 2022",
+  details: [
+    "<span class='text-gray-300'>Focused on advanced fluency, linguistic structure, and cultural understanding across Spain and Latin America. Leveraged bilingual proficiency in professional and technical environments.</span>",
+    "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
+    "<ul class='list-disc ml-6 space-y-1'>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4695' target='_blank' class='text-blue-400 hover:underline'>📝 Advanced Grammar and Composition</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4694' target='_blank' class='text-blue-400 hover:underline'>🔊 Spanish Phonetics</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4693' target='_blank' class='text-blue-400 hover:underline'>💼 Spanish for the Professions</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4690' target='_blank' class='text-blue-400 hover:underline'>🏛️ Spanish Culture and Civilization</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4688' target='_blank' class='text-blue-400 hover:underline'>📖 Latin American Literature</a></li>" +
+    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4696' target='_blank' class='text-blue-400 hover:underline'>🧠 Spanish Linguistics</a></li>" +
+    "</ul>"
+  ],
 },
 {
-  degree: "Certification in Project Management",
+  degree: "Certificate in Project Management",
   school: "Cornell University",
-  time: "2024"
+  time: "February 2024",
+  details: [
+    "<span class='text-gray-300'>Completed eCornell’s professional certificate in <span class='text-white font-semibold'>Project Management</span>, with emphasis on agile delivery, stakeholder communication, and risk management.</span>",
+    "<img src='/CornellCertificate-1.png' alt='Cornell Project Management Certificate' class='mt-4 mx-auto rounded-lg w-[300px] shadow-xl' />"
+  ],
 },
 {
-  degree: "Certified Agilist in Product Owner / Product Mananger",
-  school: "SAFe 6.0",
-  time: "2023"
+  degree: "SAFe 6 Product Owner / Product Manager",
+  school: "Scaled Agile, Inc.",
+  time: "Valid until June 2026",
+  details: [
+    "<span class='text-gray-300'>Certified SAFe® 6 POPM, demonstrating proficiency in backlog management, PI planning, and agile product delivery within lean enterprise frameworks.</span>",
+    "<img src='/SAFe6Cert-1.png' alt='SAFe 6 POPM Certificate' class='mt-4 mx-auto rounded-lg w-[300px] shadow-xl' />"
+  ],
 }
 ]
 const portfolio = [
