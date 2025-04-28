@@ -1,23 +1,112 @@
-# 3D Parallax Developer Portfolio Website
+# 🚀 Paulo Santos - Personal Developer Portfolio
 
-![3D Parallax Developer Portfolio Thumbnail](https://i.ibb.co/86NQD5c/thumbnail-3d-portfolio-smaller.jpg)
+Welcome!  
+This repository contains the codebase for my personal portfolio, built to showcase my experience, technical skills, and projects.  
+The site highlights my focus on building **scalable**, **secure**, and **efficient** software solutions, with an emphasis on **backend development** and **cybersecurity** practices.
 
-## Introduction
-This is a code repository for my 3D portfolio website showcased in this video - https://youtu.be/f_ZxgQQ74Lc.
+---
 
-I built myself a 3D developer portfolio website to replace my minimal portfolio and compliment my GitHub profile page and terminal website. This is a custom website I've been wanting to build for a while, that has the "wow" factor of my terminal website thanks to three.js 3D graphics, interactive animations, and parallax, while maintaining an easy-to-use and intuitive design. This website gives a prospective client or employer a quick look at me and my work as a developer, showing them what I can do with not just the projects listed, but the website itself. And yes, I know the parallax gets tricky when shrinking the window, but I'll fix that... one day... maybe. Maybe one of y'all can fix it for me.
+## 🧠 About Me
 
-## Technologies
-- Vite - Build tool for the boilerplate and structure
-- JavaScript - Programming language
-- React - JavaScript library for building user interfaces
-- Tailwind - CSS framework
-- Three.js - Animated 3D graphics
-- Framer Motion - Interactive animations
-- Hostinger - Web hosting platform
-- GitHub - Version control & CI/CD
+I’m a **Graduate Student** and **Software Developer** passionate about:
+- **Building backend systems** that are secure, fast, and scalable
+- **Cybersecurity**, automation, and protecting applications in real-world environments
+- **Software engineering principles** that prioritize clean architecture and long-term maintainability
+- **Continuous learning** in fields like AI, distributed systems, and DevSecOps
 
-## Extra Resources
-- [Spaceman by wallmasterr](https://sketchfab.com/3d-models/tenhun-falling-spaceman-fanart-9fd80b6a259f41fd99e6f56eee686dc5)
-- [Planet Surface by jongjawi](https://stock.adobe.com/images/landscape-surface-of-planet-sky-space-science-fiction-fantasy-illustration/330880441?asset_id=330880441)
-- [Position Animation by Teshank](https://github.com/teshank2137/portfolio)
+---
+
+## 🌐 Website
+
+🔗 [https://pauloasantos.io](https://pauloasantos.io)
+
+---
+
+## ⚡ Tech Stack
+
+| Frontend  | Backend | Deployment | Other Tools |
+|-----------|---------|------------|-------------|
+| React.js | Node.js (personal projects) | Git + Hostinger | Three.js |
+| TailwindCSS | Express (personal projects) | GitHub Pages / Hostinger Git Integration | Framer Motion |
+| Vite | MongoDB (practice) | SSH Deployments | Git CLI |
+| JavaScript (ES6+) | PostgreSQL (school projects) | | Figma (design mockups) |
+
+---
+
+## 📂 Features
+
+- Responsive UI (desktop, tablet, mobile)
+- Animated smooth transitions
+- Section-based navigation with auto-highlighting
+- Project gallery and links to GitHub repositories (Coming soon!)
+- LinkedIn / GitHub direct integrations
+- Custom favicon and branding (new logo 🚀)
+
+---
+
+## Installation & Setup Instructions
+
+### 1. Clone the Repository:
+
+```bash
+git clone https://github.com/Pauloasantos1/Portfolio.git
+```
+
+### 2. Navigate to the Project:
+
+```bash
+cd Portfolio
+```
+
+### 3. Install Dependencies:
+
+```bash
+npm install
+```
+
+### 4. Start Local Development Server:
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173/` in your browser.
+
+---
+
+## Deployment
+
+This portfolio is deployed through **Hostinger's Git Integration**.  
+Each push to the `master` branch triggers an automated deployment to the live site.
+
+---
+
+## Contact
+
+- **GitHub**: [Pauloasantos1](https://github.com/Pauloasantos1)
+- **LinkedIn**: www.linkedin.com/in/pauloasantos1
+- **Email**: Pauloa2018@gmail.com
+
+---
+
+
+## Future Improvements (Roadmap)
+
+- Add a "Github Projects" page coming May 2025
+- Integrate a contact form with backend API (Currently using 3rd party provider)
+- Add new certificates as I earn them. 
+- Fixing scaling and sizing with wide screen monitors. 
+
+---
+
+## Stats
+
+| Metric | Number |
+|--------|--------|
+| Years of Experience | 4+ |
+| Degrees | 2 (Computer Science) |
+| Technologies Used | 10+ |
+| Coffee Cups Coded Through | 500+ ☕ |
+
+---
+
