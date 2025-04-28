@@ -158,7 +158,7 @@
 
 /* a utility class you can drop straight on your ring */
 .animate-spin-slow {
-  animation: spin-slow 20s linear infinite;
+  animation: spin-slow 6s linear infinite;
 }
 
 @keyframes glow {

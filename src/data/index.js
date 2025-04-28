@@ -80,53 +80,53 @@ const experiences = [
 ];
 const educations = [{
   degree: "Masters of Science Computer Science",
-  school: "Georgia Institute of Technology",
+  school: "Georgia Institute of Technology 🐝",
   time: "2024 - 2026 (Anticipated)",
   details: [
-    "<span class='text-gray-300'>Focus on cybersecurity, automation, and software architecture across cloud-native environments.</span>",
+    "<span class='text-gray-300'>Specializing in cybersecurity and human-computer interaction, with coursework centered on secure system design, digital threat analysis, and ethical AI development.</span>",
     "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
     "<ul class='list-disc ml-6 space-y-1'>" +
-    "<li><a href='https://omscs.gatech.edu/cs-6035-introduction-information-security' target='_blank' class='text-blue-400 hover:underline'>🔐 Intro to Information Security</a></li>" +
-    "<li><a href='https://omscs.gatech.edu/cs-6260-applied-cryptography' target='_blank' class='text-blue-400 hover:underline'>🔏 Data Security & Privacy Policies</a></li>" +
-    "<li><a href='https://omscs.gatech.edu/cs-6750-human-computer-interaction' target='_blank' class='text-blue-400 hover:underline'>🧠 Human-Computer Interaction</a></li>" +
-    "<li><a href='https://omscs.gatech.edu/cs-6440-intro-health-informatics' target='_blank' class='text-blue-400 hover:underline'>🏥 Intro to Health Informatics</a></li>" +
-    "<li><a href='https://omscs.gatech.edu/cs-8803-mobile-ubiquitous-computing' target='_blank' class='text-blue-400 hover:underline'>📱 Mobile & Ubiquitous Computing</a></li>" +
-    "<li><a href='https://omscs.gatech.edu/cs-6460-educational-technology' target='_blank' class='text-blue-400 hover:underline'>🎓 Educational Technology</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6035-introduction-information-security' target='_blank' class='text-blue-400 hover:underline'>Introduction to Information Security</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/inta-6450-data-analytics-and-security' target='_blank' class='text-blue-400 hover:underline'>Data Analytics and Security</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6750-human-computer-interaction' target='_blank' class='text-blue-400 hover:underline'>Human-Computer Interaction</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6603-ai-ethics-and-society' target='_blank' class='text-blue-400 hover:underline'> AI Ethics and Society</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6440-intro-health-informatics' target='_blank' class='text-blue-400 hover:underline'>Introduction to Health Informatics</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-8803-mobile-ubiquitous-computing' target='_blank' class='text-blue-400 hover:underline'>Mobile & Ubiquitous Computing</a></li>" +
+    "<li><a href='https://omscs.gatech.edu/cs-6460-educational-technology' target='_blank' class='text-blue-400 hover:underline'>Educational Technology</a></li>" +
     "</ul>"
   ],
 },
 {
   degree: "Bachelor of Science Computer Science",
-  school: "University of Georgia",
+  school: "University of Georgia 🐶",
   time: "2018 - 2022",
   details: [
-    "<span class='text-gray-300'>Emphasis on systems-level programming, security fundamentals, and software development best practices.</span>",
+    "<span class='text-gray-300'>Built a foundation in scalable systems design, security fundamentals, and software engineering best practices through a Bachelor of Science in Computer Science at UGA.</span>",
     "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
     "<ul class='list-disc ml-6 space-y-1'>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8369' target='_blank' class='text-blue-400 hover:underline'>🧪 Software Engineering</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8371' target='_blank' class='text-blue-400 hover:underline'>🏛️ Computer Systems Architecture</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8367' target='_blank' class='text-blue-400 hover:underline'>💻 Operating Systems</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8372' target='_blank' class='text-blue-400 hover:underline'>🧩 Algorithms</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8365' target='_blank' class='text-blue-400 hover:underline'>📊 Data Structures</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8368' target='_blank' class='text-blue-400 hover:underline'>🔐 Computer Security</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=8366' target='_blank' class='text-blue-400 hover:underline'>🗃️ Database Management</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-40506050' target='_blank' class='text-blue-400 hover:underline'>Software Engineering</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-4720' target='_blank' class='text-blue-400 hover:underline'>Computer Architecture and Organization</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-47306730' target='_blank' class='text-blue-400 hover:underline'>Operating Systems</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-40606060' target='_blank' class='text-blue-400 hover:underline'>Mobile Software Development</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-2670' target='_blank' class='text-blue-400 hover:underline'>Introduction to Theory of Computing</a></li>" +
+    "<li><a href='https://computing.uga.edu/courses/content/csci-2720' target='_blank' class='text-blue-400 hover:underline'>Data Structure</a></li>" +
     "</ul>"
   ],
 },
 {
   degree: "Bachelor of Arts Spanish",
-  school: "University of Georgia",
+  school: "University of Georgia 🐶",
   time: "2018 - 2022",
   details: [
-    "<span class='text-gray-300'>Focused on advanced fluency, linguistic structure, and cultural understanding across Spain and Latin America. Leveraged bilingual proficiency in professional and technical environments.</span>",
+    "<span class='text-gray-300'>As a native Spanish speaker, pursued formal studies to deepen literacy skills in reading, writing, and professional communication. Focused on mastering linguistic structure, advanced grammar, and cultural contexts across Spain and Latin America.</span>"+
     "<strong class='text-white'>Relevant Coursework:</strong><br/>" +
     "<ul class='list-disc ml-6 space-y-1'>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4695' target='_blank' class='text-blue-400 hover:underline'>📝 Advanced Grammar and Composition</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4694' target='_blank' class='text-blue-400 hover:underline'>🔊 Spanish Phonetics</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4693' target='_blank' class='text-blue-400 hover:underline'>💼 Spanish for the Professions</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4690' target='_blank' class='text-blue-400 hover:underline'>🏛️ Spanish Culture and Civilization</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4688' target='_blank' class='text-blue-400 hover:underline'>📖 Latin American Literature</a></li>" +
-    "<li><a href='https://bulletin.uga.edu/CoursesHome?courseId=4696' target='_blank' class='text-blue-400 hover:underline'>🧠 Spanish Linguistics</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/spanling-3050' target='_blank' class='text-blue-400 hover:underline'>Introduction to Spanish Linguistics</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/spanling-4650' target='_blank' class='text-blue-400 hover:underline'>Spanish Phonetics and Language Variation</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/span-4080' target='_blank' class='text-blue-400 hover:underline'>Discovering Cultural Formation</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/roml-4030' target='_blank' class='text-blue-400 hover:underline'>Advanced Topics in Latino Literatures and Cultures</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/span-4070' target='_blank' class='text-blue-400 hover:underline'>Latin American Voices of Change</a></li>" +
+    "<li><a href='https://roml.franklin.uga.edu/courses/content/span-4030' target='_blank' class='text-blue-400 hover:underline'>Latinx in the United States</a></li>" +
     "</ul>"
   ],
 },
