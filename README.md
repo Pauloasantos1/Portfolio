@@ -1,4 +1,4 @@
-# 🚀 Paulo Santos - Personal Developer Portfolio
+# 👋🏼 Paulo Santos - Personal Developer Portfolio
 
 Welcome!  
 This repository contains the codebase for my personal portfolio, built to showcase my experience, technical skills, and projects.  
@@ -6,7 +6,7 @@ The site highlights my focus on building **scalable**, **secure**, and **efficie
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I’m a **Graduate Student** and **Software Developer** passionate about:
 - **Building backend systems** that are secure, fast, and scalable
@@ -16,13 +16,13 @@ I’m a **Graduate Student** and **Software Developer** passionate about:
 
 ---
 
-## 🌐 Website
+## Website
 
 🔗 [https://pauloasantos.io](https://pauloasantos.io)
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 | Frontend  | Backend | Deployment | Other Tools |
 |-----------|---------|------------|-------------|
