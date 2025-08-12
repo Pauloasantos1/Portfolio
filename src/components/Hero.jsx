@@ -28,7 +28,13 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-evenly w-full px-4 sm:px-6 lg:px-8"
+      className="relative
+        min-h-screen
+        flex flex-col justify-evenly
+        w-full px-4 sm:px-6 lg:px-8
+        pt-[calc(64px+env(safe-area-inset-top))]   
+        sm:pt-[calc(72px+env(safe-area-inset-top))]
+        scroll-mt-24min-h-screen flex flex-col justify-evenly w-full px-4 sm:px-6 lg:px-8"
     >
       <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-y-12 lg:gap-x-16">
         <div className="flex-1 text-center lg:text-left">
