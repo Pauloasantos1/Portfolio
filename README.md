@@ -1,4 +1,3 @@
-** Note April 27th, 2025, Noticed Bugs where the mobile version doesn't render properly on hero page and navbar and content overlap each other. Bugs will be addressed ASAP **
 
 # 👋🏼 Paulo Santos - Personal Developer Portfolio
 
