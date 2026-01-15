@@ -95,7 +95,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 rounded-full p-[6px] animate-spin-slow bg-[conic-gradient(from_0deg,_transparent_0deg,_transparent_40%,_rgba(34,197,94,0.5)_75%,_#22c55e_85%,_rgba(34,197,94,0.5)_90%,_transparent_100%)]" />
             <div className="absolute inset-[6px] rounded-full overflow-hidden">
               <img
-                src="/headshot.jpg"
+                src="/headshot.jpg?v=4"
                 alt="Paulo's Profile"
                 className="w-full h-full object-cover object-[center_20%]"
               />
