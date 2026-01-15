@@ -28,8 +28,10 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="scroll-mt-28 flex flex-col justify-evenly max-w-7xl mx-auto px-6 md:px-16 py-20
-+              md:min-h-screen"
+      className="relative min-h-screen flex flex-col justify-evenly w-full px-4 sm:px-6 lg:px-8
+             pt-[calc(64px+env(safe-area-inset-top))]
+             sm:pt-[calc(72px+env(safe-area-inset-top))]
+             scroll-mt-28"
     >
       <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-y-12 lg:gap-x-16">
         <div className="flex-1 text-center lg:text-left">
@@ -95,7 +97,7 @@ export default function HeroSection() {
               <img
                 src="/headshot.jpg"
                 alt="Paulo's Profile"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[center_20%]"
               />
             </div>
           </div>
