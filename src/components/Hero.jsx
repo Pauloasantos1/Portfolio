@@ -100,7 +100,7 @@ export default function HeroSection() {
               <img
                 src="/headshot.jpg"
                 alt="Paulo's Profile"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[center_20%]"
               />
             </div>
           </div>
