@@ -50,8 +50,6 @@ export default function HeroSection() {
           </h2>
           <p className="text-gray-400 text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed max-w-[650px] mx-auto lg:mx-0">
           I’m a technical product leader building automation, security, and AI-enabled systems for complex organizations.
-          I work at the intersection of engineering, product, and security to design platforms that streamline operations, 
-          align stakeholders, and apply AI in practical, responsible ways.
           </p>
 
           <div className="flex flex-col items-center lg:items-start space-y-4">
